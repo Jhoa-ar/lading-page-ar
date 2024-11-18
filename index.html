@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título de la Página</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-landing">
+    <div class="wrap-logo">
+      <img src="img/logo.jpg" alt="" class="logo-header">
+    </div>
+    <div class="menu-footer-section">
+      <div class="wrap-menu-footer-section">
+        <ul>
+          <li><a href="#inicio"></a>Inicio</li>
+          <li><a href="#servicio"></a>Servicios</li>
+          <li><a href="#quienes"></a>Quienes Somos</li>
+          <li><a href="#contacto"></a>Contacto</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero-section">
+    <div class="wrap-hero-section">
+      <h1>LIL DARLING</h1>
+      <p>¡Descubre la última colección de moda que transformará tu estilo! En nuestra tienda, ofrecemos una amplia variedad de ropa que combina calidad, comodidad y las tendencias más actuales. Desde elegantes vestidos para esas ocasiones especiales hasta ropa casual perfecta para el día a día, tenemos todo lo que necesitas para lucir increíble.¡Visítanos y aprovecha nuestras ofertas exclusivas! Tu nueva prenda favorita te está esperando.</p>
+      <div class="wrap-cta">
+        <a href="#" class="cta-a">COMPRAR</a>
+      </div>
+    </div>
+  </section>
+
+  <section  class="section logos-section">
+    <div class="wrap-logos-section">
+      <img src="img/p2.webp" alt="" class="logo-brand">
+      <img src="img/p3.webp" alt="" class="logo-brand">
+      <img src="img/p4.jpg" alt="" class="logo-brand">
+      <img src="img/p10.jpg" alt="" class="logo-brand">
+      <img src="img/p6.jpg" alt="" class="logo-brand">
+    </div>
+  </section>
+
+  <section id="servicio" class="section servicios-section">
+    <div class="wrap-title-section">
+      <h2>Categorías de Servicios</h2>
+    </div>
+
+    <div class="wrap-servicios-section">
+      <a href="" class="item-servicios-section">
+        <img src="img/p2.webp" alt="">
+          <p>ROPA DE VERANO </p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p3.webp" alt="">
+          <p>ROPA CASUAL</p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p4.jpg" alt="">
+          <p>ROPA ORIGINAL</p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p5.jpg" alt="">
+          <p>ROPA JUVENIL</p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p6.jpg" alt="">
+          <p>ROPA PARA DAMA</p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p7.jpg" alt="">
+          <p>ROPA DE INVIERNO </p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p8.jpg" alt="">
+          <p>ROPA DE OTOÑO</p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p9.jpg" alt="">
+          <p>ELEGANTE</p>
+        </img>
+      </a>
+      <a href="" class="item-servicios-section">
+        <img src="img/p10.jpg" alt="">
+          <p>CHOMPAS</p>
+        </img>
+      </a>
+    </div>
+  </section>
+
+  <section id="quienes" class="section two-column-section">
+
+    <div class="wrap-title-section">
+      <h2>Características de nuestros Servicios</h2>
+    </div>
+
+    <div class="wrap-two-column">
+      <div class="wrap-img_two-column">
+        <img src="img/persona.jpg" alt="">
+      </div>
+
+      <div class="wrap-img_two-column">
+        <div class="wrap-text-column">
+          <h3>Más Características</h3>
+          <p>Los trabajadores de nuestra tienda de ropa son un equipo apasionado y dedicado, comprometido a brindar la mejor experiencia de compra a nuestros clientes. Cada uno de ellos aporta un conocimiento profundo sobre las tendencias de moda y los productos que ofrecemos, lo que les permite asesorar y ayudar a los compradores a encontrar las prendas perfectas. </p>
+          <div class="wrap-cta">
+            <a href="#" class="cta-a">Llamada a la acción</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section two-column-section form">
+
+    <div id="contacto"   class="wrap-title-section">
+      <h2>Formulario de Contacto</h2>
+    </div>
+
+    <div class="wrap-two-column">
+
+      <div class="wrap-img_two-column">
+        <div class="wrap-text-column">
+          <h3>Contacta con nosotros</h3>
+
+          <form action="procesar_formulario.php" method="post" class="form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required="">
+            <br><br>
+            
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto" id="asunto" required="">
+            <br><br>
+            
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
+            <br><br>
+            
+            <input type="submit" value="Enviar" class="cta-a">
+          </form>
+
+        </div>
+      </div>
+
+      <div class="wrap-img_two-column">
+        <img src="img/persona2.avif" alt="">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="wrap-footer-section">
+      <div class="wrap-social-logos">
+        <ul>
+          <li>
+            <a href="">
+              <img src="img/1.png" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/2.webp" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/3.webp" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/4.webp" alt="" class="social-logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-footer-section">
+      <div class="footer-creds">
+        <p>©copytight 2023 - dropcoding.com - Todos los derechos reservados.</p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>
